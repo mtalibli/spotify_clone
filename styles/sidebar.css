@@ -1,0 +1,122 @@
+.sidebar-section{
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 0;
+  bottom: 80px;
+  top: 72px;
+  width: 270px;
+  background-color: rgb(21, 21, 21);
+  color: white;
+  border-radius: 10px;
+  margin: 5px;
+}
+.sidebar-title{
+  width: 100%;
+  height: 71px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 5px rgb(21,21,21);
+}
+.your-library{
+  margin: 15px;
+  color: white;
+  font-weight: 500;
+}
+.plus{
+  color: lightgray;
+  font-size: 30px;
+  margin: 15px;
+}
+.sidebar-box{
+  display: flex;
+  flex-direction: column;
+}
+.create-playlist{
+  display: flex;
+  flex-direction: column;
+  height: 130px;
+  background-color: rgb(30, 30, 30);
+  padding: 10px 20px;
+  margin: 0px 10px; 
+  border-radius: 10px;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+.create-playlist .create{
+  font-size: 14px;
+  font-weight: 700;
+}
+.create-playlist .help{
+  font-size: 12px;
+}
+.create-playlist button{
+  height: 35px;
+  width: 120px;
+  font-family: Work Sans,Arial;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 17px;
+}
+.find-podcasts{
+  display: flex;
+  flex-direction: column;
+  height: 130px;
+  background-color: rgb(30, 30, 30);
+  padding: 10px 20px;
+  margin: 0px 10px;
+  border-radius: 10px;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+.find-podcasts .find{
+  font-size: 14px;
+  font-weight: 700;
+}
+.find-podcasts .update{
+  font-size: 12px;
+}
+.find-podcasts button{
+  height: 35px;
+  width: 140px;
+  font-family: Work Sans,Arial;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 17px;  
+}
+.sidebar-footer{
+  margin-left: 10px;
+  margin-right: 15px;
+  margin-top: 30px;
+}
+.sidebar-text{
+  display: flex;
+  font-size: 11px;
+  justify-content: space-between;
+}
+.sidebar-text div{
+  display: flex;
+  margin-bottom: 10px;
+}
+.button-section{
+  display: flex;
+  position: relative;
+  background-color: rgb(30, 30, 30);
+  align-items: center;
+  width: 120px;
+  border-radius: 20px;
+}
+.english{
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-family: Work Sans,Arial;
+  margin: 10px 35px; 
+}
+.world-icon{
+  position: absolute;
+  height: 35px;
+  left: 10px;
+  top: 7px;
+}

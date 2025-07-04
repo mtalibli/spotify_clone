@@ -1,0 +1,123 @@
+.header-section{
+  position: fixed;
+  display: flex;
+  align-items: center;
+  left: 0;
+  right: 0;
+  top: 0;
+  color: white;
+  height: 72px;
+}
+.spotify-logo{
+  width: 45px;
+  margin: 10px 5px;
+  margin-left: 50px;
+}
+.home-icon-section{
+  display: flex;
+  background-color: rgb(41,41,41);
+  width: 45px;
+  height: 45px;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+.home-icon{
+  width: 25px;
+}
+.search-section{
+  display: flex;
+  position: relative;
+  align-items: center;
+  vertical-align: middle;
+  width: 500px;
+}
+.search-icon{
+  width: 25px;
+  position: absolute;
+  left: 15px;
+}
+.song-search{
+  background-color: rgb(41,41,41);
+  height: 45px;
+  width: 100%;
+  border: none;
+  color: white;
+  border-radius: 25px;
+  padding-left: 50px;
+  font-family: Work Sans,Arial;
+}
+.song-search::placeholder{ 
+  color: lightgray;
+  font-family: Work Sans,Arial;
+  font-size: 15px;
+}
+.border-section{
+  position: absolute;
+  right: 60px;
+  font-size: 25px;
+  font-weight: 100;
+}
+.browse-icon{
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  width: 25px;
+}
+.install-section{
+  display: flex;
+  width: 120px;
+  margin-left: 25px;
+  justify-content: space-between;
+  align-items: center;
+}
+.download-icon{
+  width: 25px;
+}
+.install-app{
+  font-size: 14px;
+  color: lightgray;
+}
+.text-section{
+  display: flex;
+  width: 400px;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+}
+.text-section .text{
+  margin-left: 10px;
+  margin-right: 10px;
+  color: lightgray;
+  font-weight: 700;
+}
+.border-2{
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 25px;
+  font-weight: 100;
+}
+.account-section{
+  display: flex;
+  position: absolute;
+  right: 0;
+  margin: 20px;
+}
+.sign-up-button{
+  margin: 0px 20px;
+  background-color: transparent;
+  border: none;
+  color: lightgray;
+  font-family: Work Sans,Arial;
+  font-weight: 500;
+  font-size: 15px;
+}
+.log-in-button{
+  background-color: white;
+  font-family: Work Sans, Arial;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 25px;
+  padding: 15px 25px;
+}

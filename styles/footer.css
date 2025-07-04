@@ -1,0 +1,32 @@
+.footer-section{
+  display: flex;
+  position: absolute;
+  margin: 5px;
+  height: 70px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to right, #bc2c82, #8e44ad, #3498db);
+}
+.footer-section .text{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.preview{
+  margin: 5px 10px;
+  font-weight: 700;
+}
+.no-credit-card{
+  margin: 5px 10px;
+  font-size: 14px;
+}
+.footer-sign-up-button{
+  color: black;
+  margin: 5px 10px;
+  font-family: Work Sans,Arial;
+  font-weight: 700;
+  border: none;
+  padding: 5px 30px;
+  border-radius: 30px;
+}
